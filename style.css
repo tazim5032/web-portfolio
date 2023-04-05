@@ -2,12 +2,20 @@ h1{
     font-size: 50px;
 
 }
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgray;
+}
 body{
     
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
-.name-color-korbe{
+.color-korbe{
 
     color: red;
 }
@@ -34,6 +42,7 @@ body{
 section{
 
     height: 500px;
+    padding-bottom: 100px;
 }
 
 .link-button{
@@ -44,4 +53,46 @@ section{
     background-image: linear-gradient(lightSalmon,tomato); /*button er background color lightSalmon theke tomato color hbe*/
     padding: 10px 20px;
     border-radius: 5px; /*rectangle er kona gula chokha thakbe na*/
+}
+
+.dream-area{
+
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+.vag-korbe{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+    background-color: white;
+}
+
+.experience-area{
+
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon,tomato);
+    border-image-slice: 1;
+}
+
+#baby-stage{
+
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+
+    text-align: center;
 }
